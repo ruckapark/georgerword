@@ -1,0 +1,13 @@
+# --- GUI ---
+tk  # Tkinter (already included in standard Python installs, but keep for clarity)
+
+# --- Notebook support (optional) ---
+notebook
+ipykernel
+
+# --- Testing (optional) ---
+pytest
+
+# --- Linting/Formatting (optional but recommended) ---
+black
+flake8

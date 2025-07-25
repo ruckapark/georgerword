@@ -1,0 +1,53 @@
+# === Python general ===
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.egg
+*.egg-info/
+*.log
+*.cache
+*.tmp
+
+# === Virtual environments ===
+venv/
+env/
+ENV/
+.venv/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# === Spyder ===
+.spyderproject
+.spyproject
+.spyderworkspace
+
+# === VSCode ===
+.vscode/
+
+# === MacOS ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === PyInstaller ===
+dist/
+build/
+*.spec
+
+# === Testing ===
+.coverage
+.cache/
+pytest_cache/
+htmlcov/
+
+# === Notebooks outputs ===
+**/*.out
+**/*.bak
+
